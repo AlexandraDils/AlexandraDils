@@ -1,0 +1,147 @@
+* { 
+    box-sizing: border-box;
+     margin:  0; 
+     padding: 0;
+} 
+
+.nav { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    margin: 25px;
+} 
+
+.nav ul { 
+    display: flex;  
+    list-style: none;
+}
+
+.nav ul li a { 
+    display: flex;  
+    flex-direction: row;
+    text-decoration: none;
+    margin: 30px 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#GetinTouch {
+    padding: 20px;
+    color:  #fffcff;; 
+    font-weight: bold;
+    font-size: 15pt;
+    background-color: #9c27b0;
+    border: none;
+    box-shadow: 3px 3px 5px 0 #1f0823;
+
+} 
+
+.left {
+    
+}
+
+#image {
+    width:  800px;
+    clip-path: circle();
+    margin: 150px 50px 50px 100px;
+    align-items: right;
+} 
+
+
+.content { 
+   margin: 100px; 
+   display: flex;
+   align-items: center; 
+ }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    margin: 100px 10px 35px;   
+  }
+ 
+.preloader {
+  position: fixed;
+  width:  100%;
+  height: 100vh;
+  z-index: 100000;
+  background-color: white;
+  top:  0;
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preloader img {
+  animation: spin 3s ease;
+  width:  120px;
+}
+
+#insta {
+    margin: 0px 20px 100px 35px;
+    position: relative: left;
+}
+
+#linkedin {
+    margin: 0px 100px 150px 100px;
+
+}
+
+.navworks { 
+    float: right;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    margin: 70;
+ }
+
+.ProjectOverview { 
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+ }
+
+#Wolf {
+    width: 500px;
+    height: auto;
+    float: right;
+    margin: 80px;
+}
+
+#Weather {
+    width: 500px;
+    height: auto;
+    float: right;
+    margin: 80px;
+}
+
+#Pocket {
+    width: 500px;
+    height: auto;
+    float: right;
+    margin: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
