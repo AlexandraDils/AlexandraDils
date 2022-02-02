@@ -4,6 +4,7 @@
      padding: 0;
 } 
 
+}
 .nav { 
     display: flex; 
     justify-content: space-between; 
@@ -98,30 +99,31 @@
  }
 
 .ProjectOverview { 
+    display: flex;
     flex-direction: column;
     padding: 30px;
     justify-content: center;
  }
 
-#Wolf {
-    width: 500px;
-    height: auto;
-    float: right;
-    margin: 80px;
-}
+ .container {
+    display: flex;
+    justify-content: space-evenly;
 
-#Weather {
-    width: 500px;
-    height: auto;
-    float: right;
-    margin: 80px;
-}
+ }
 
-#Pocket {
+ .projleft {
+    margin: 10px;
+ }
+
+ .projright img {
+    margin: 10px;
+    height: 500px;
     width: 500px;
-    height: auto;
-    float: right;
-    margin: 80px;
+ }
+
+
+@media only screen and (max-width = 768px) {
+    
 }
 
 
