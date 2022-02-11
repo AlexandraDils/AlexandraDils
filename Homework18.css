@@ -7,10 +7,10 @@
 }
 .nav { 
     display: flex; 
-    justify-content: space-between; 
     align-items: center; 
     width: 100%; 
     margin: 25px;
+    flex-direction: row;
 } 
 
 .nav ul { 
@@ -29,6 +29,7 @@
 
 
 #GetinTouch {
+    display: flex;
     padding: 20px;
     color:  #fffcff;; 
     font-weight: bold;
@@ -39,15 +40,12 @@
 
 } 
 
-.left {
-    
-}
 
 #image {
-    width:  800px;
+    width:  600px;
     clip-path: circle();
-    margin: 150px 50px 50px 100px;
     align-items: right;
+    margin: 20px;
 } 
 
 
@@ -60,7 +58,6 @@
   footer {
     display: flex;
     justify-content: center;
-    margin: 100px 10px 35px;   
   }
  
 .preloader {
@@ -116,9 +113,10 @@
  }
 
  .projright img {
-    margin: 10px;
-    height: 500px;
+    margin: 20px;
+    height: 400px;
     width: 500px;
+
  }
 
 
@@ -126,8 +124,17 @@
     
 }
 
+p {
+    margin: 5px;
+}
 
+.logo {
 
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 
 
